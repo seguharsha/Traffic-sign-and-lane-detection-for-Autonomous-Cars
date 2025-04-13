@@ -3,7 +3,7 @@ import { View, Button, ActivityIndicator, Text, StyleSheet } from "react-native"
 import { Camera, useCameraDevices } from "react-native-vision-camera";
 import Video from "react-native-video";
 
-const BACKEND_URL = "https://d6cc-34-125-180-34.ngrok-free.app/detect-video/"; // Change this to your actual backend URL
+const BACKEND_URL = "public_url or local url/detect-video/"; // Change this to your actual backend URL
 
 export default function App() {
   const devices = useCameraDevices();
